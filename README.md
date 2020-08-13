@@ -13,7 +13,7 @@ Full Arduino Uno schematic: https://www.circuito.io/blog/arduino-uno-pinout/
 
 Battery management system explanation video tutorials: https://www.youtube.com/watch?v=MZyY1dpka7c
 
-Problem
+__Problem__
 
 A DIY Powerwall is the DIY construction of a pack of battery cells to create an energy store which can be used via inverters to power electrical items in the home. Generally cells are salvaged/second hand, and typically use Lithium 18650 cells.
 
@@ -23,7 +23,7 @@ Existing balancing solutions are available in the market place, but at a relativ
 
 A large number of people have utilised the commercial BATRIUM BMS system in their powerwall devices.
 
-Circuit explanation
+__Circuit explanation__
 
 The schematic attached in this repository is very simple. Electronic circuit can be divided in two parts, power supply module and analog to digital conversion peripheral. 
 
@@ -63,6 +63,6 @@ configuration.
 
 NTC data: https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039
 
-Required components
+__Required components__
 
 TPS61073 converter ic
