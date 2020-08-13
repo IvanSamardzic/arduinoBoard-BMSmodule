@@ -47,3 +47,4 @@ recommended. The device has been optimized to operate with inductance values bet
 
 Required components
 ---
+TPS61073 converter ic
