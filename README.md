@@ -28,7 +28,7 @@ A large number of people have utilised the commercial BATRIUM BMS system in thei
 The schematic attached in this repository is very simple. 
 
 Electronic circuit can be divided in two parts:
-  1. power supply module
+  1. Power supply module
   2. Analog to digital conversion peripheral 
 
 First part has the a function of generating a stable voltage to the ADC peripheral (main IC) always has the same voltage reference. Power supply module is made by using TPS6107x
