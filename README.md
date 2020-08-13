@@ -4,8 +4,9 @@ Arduino Uno R3 Battery Management System Module
 Extension Board can be also connected to _Nano_, _Micro Pro_ and other Arduino Boards!
 This Board is partly designed and inspired by [Stuart Pittaway and his diyBMS](https://github.com/stuartpittaway/diyBMS).
 
-The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller. Each item or element within the
-electronic circuit is explained in detail.
+The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller or similar one. This board has a
+function to measure battery voltage and temperature in an analog form and send it back to the microcontroller. The board also generate stable 3.3 V (600 mA) output signal by using
+appropriate integrated circuit thus eliminating the need for an external voltage source for the board and the microcontroller. 
 
 Full Arduino Uno schematic: https://www.circuito.io/blog/arduino-uno-pinout/
 
