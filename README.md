@@ -1,7 +1,8 @@
 Arduino Uno R3 Battery Management System Module
 ---
 
-The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller. Each item or element within the electronic circuit is explained in detail.
+The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller. Each item or element within the
+electronic circuit is explained in detail.
 
 Full Arduino Uno schematic: https://www.circuito.io/blog/arduino-uno-pinout/
 Battery management system explanation video tutorials: https://www.youtube.com/watch?v=MZyY1dpka7c
