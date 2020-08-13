@@ -74,4 +74,21 @@ configuration.
 
 ### Required components
 
-TPS61073 converter ic
+U1 TPS61073 Converter 
+Q1 BS2312-BDS N-channel MOSFET
+TH1 B5789 NTC Thermistor
+R1, R3 10 k Resistor
+R2, R5 47k Resistor
+R4 10 W 33 R Power Resistor
+R6 470k Resistor
+R7 680k Resistor
+R8 1M Resistor
+R9 200k Resistor
+R10 330R Resistor
+L1 4.7 uH Inductor
+C1 X7R 100 nF Ceramic Capacitor
+C2 - C5  X7R 4.7 uF Ceramic Capacitor
+C6 100 nF Electrolitic Capacitor
+D1 - D2 5 mm LEDs
+J1 01x02 5.08 mm Male Header Connector
+J2 - J8 01x02 2.54mm Male Header Connector
