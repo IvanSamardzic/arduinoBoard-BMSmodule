@@ -23,7 +23,7 @@ Existing balancing solutions are available in the market place, but at a relativ
 
 A large number of people have utilised the commercial BATRIUM BMS system in their powerwall devices.
 
-### Circuit explanation
+### Scheme explanation
 
 The schematic attached in this repository is very simple. 
 
