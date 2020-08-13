@@ -1,8 +1,8 @@
 Arduino Uno R3 Battery Management System Module
 ---
 
-### Extension Board can be also connected to _Nano_, _Micro Pro_ and other Arduino Boards!
-### This Board is partly designed and inspired by [Stuart Pittaway] (https://github.com/stuartpittaway/diyBMS).
+Extension Board can be also connected to _Nano_, _Micro Pro_ and other Arduino Boards!
+This Board is partly designed and inspired by [Stuart Pittaway] (https://github.com/stuartpittaway/diyBMS).
 
 The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller. Each item or element within the
 electronic circuit is explained in detail.
