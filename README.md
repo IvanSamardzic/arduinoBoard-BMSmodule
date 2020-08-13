@@ -44,8 +44,7 @@ battery. In this example, TPSxx will be used as both buck and boost converter. I
 in range from 3 V to 4.2 V in case system manages Li-Ion battery cells.
 
 In different modes, integrated circuit has the different efficiency. Module has cca. 80 percent efficiency in the boost mode and over 90 percent in its buck mode. Power supply is
-connected directly to batteries meaning that we do not need additional external power source. Power supply main part is Texas Instruments integrated circuit TPS6107x which stands as
-a buck/boost converter generating stable 600 mA and 3.3 V at the output. 
+connected directly to batteries meaning that we do not need additional external power source.
 
 All 4.7 uF capacitors connceted to TPS6107x chip are used to give the maximum power at the output. Two 4.7 uF X7R capacitors instead of one 10uF capacitor are better solution due to
 less value noise generation.
