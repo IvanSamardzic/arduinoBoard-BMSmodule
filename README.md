@@ -50,6 +50,14 @@ Normally, it is advisable to work with a ripple of less than 20% of the average 
 output voltage ripple and EMI. With this calculated value and the calculated currents, it is possible to choose a suitable inductor. In typical applications, a 4.7-µH inductance is
 recommended. The device has been optimized to operate with inductance values between 2.2 µH and 10 µH.
 
+ADC peripheral module is in charge of measuring battery voltage and temperature temporary values. For voltage measurements, voltage divides is used to divide maximal 4.3 V value to 
+2.4 V value due to ADC characteristics. Divide ratio equals 680 / 680 + (470 + 47) =  0.568. Also, a small 100 nF capacitor is added to integrate the battery voltages.
+
+For thermal measurements, 10kΩ NTC thermistor is used and together with 10 kΩ resistor make voltage divider in which voltage is raised when thr temperature is raised due to divider
+configuration.
+
+NTC data: https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039
+
 Required components
 ---
 TPS61073 converter ic
