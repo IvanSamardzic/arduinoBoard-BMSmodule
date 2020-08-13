@@ -1,4 +1,4 @@
-Arduino Uno R3 Battery Management System Module
+_Arduino Uno Battery Management System Extension Module_
 ---
 
 Extension Board can be also connected to _Nano_, _Mini Pro_ and other Arduino Boards!
@@ -11,7 +11,7 @@ appropriate integrated circuit thus eliminating the need for an external voltage
 
 [Full Arduino Uno schematic](https://www.circuito.io/blog/arduino-uno-pinout/)
 
-[Battery management system explanation video tutorials](https://www.youtube.com/watch?v=MZyY1dpka7c)
+[Battery management system explanation video tutorial](https://www.youtube.com/watch?v=MZyY1dpka7c)
 
 ### Problem
 
