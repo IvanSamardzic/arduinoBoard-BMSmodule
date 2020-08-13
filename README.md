@@ -3,6 +3,9 @@ Arduino Uno R3 Battery Management System Module
 
 The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller. Each item or element within the electronic circuit is explained in detail.
 
+Full Arduino Uno schematic: https://www.circuito.io/blog/arduino-uno-pinout/
+Battery management system explanation video tutorials: https://www.youtube.com/watch?v=MZyY1dpka7c
+
 Problem
 ---
 A DIY Powerwall is the DIY construction of a pack of battery cells to create an energy store which can be used via inverters to power electrical items in the home. Generally cells are salvaged/second hand, and typically use Lithium 18650 cells.
