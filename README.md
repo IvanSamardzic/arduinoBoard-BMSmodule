@@ -1,7 +1,7 @@
 Arduino Uno R3 Battery Management System Module
 ---
 
-Extension Board can be also connected to _Nano_, _Micro Pro_ and other Arduino Boards!
+Extension Board can be also connected to _Nano_, _Mini Pro_ and other Arduino Boards!
 
 This Board is partly designed and inspired by [Stuart Pittaway and his diyBMS](https://github.com/stuartpittaway/diyBMS).
 
@@ -9,9 +9,9 @@ The goal of this project is to design, sketch and program a simple pcb board tha
 function to measure battery voltage and temperature in an analog form and send it back to the microcontroller. The board also generate stable 3.3 V (600 mA) output signal by using
 appropriate integrated circuit thus eliminating the need for an external voltage source for the board and the microcontroller. 
 
-Full Arduino Uno schematic: https://www.circuito.io/blog/arduino-uno-pinout/
+[Full Arduino Uno schematic](https://www.circuito.io/blog/arduino-uno-pinout/)
 
-Battery management system explanation video tutorials: https://www.youtube.com/watch?v=MZyY1dpka7c
+[Battery management system explanation video tutorials](https://www.youtube.com/watch?v=MZyY1dpka7c)
 
 ### Problem
 
@@ -25,13 +25,17 @@ A large number of people have utilised the commercial BATRIUM BMS system in thei
 
 ### Circuit explanation
 
-The schematic attached in this repository is very simple. Electronic circuit can be divided in two parts, power supply module and analog to digital conversion peripheral. 
+The schematic attached in this repository is very simple. 
+
+Electronic circuit can be divided in two parts:
+  1. power supply module
+  2. Analog to digital conversion peripheral 
 
 First part has the a function of generating a stable voltage to the ADC peripheral (main IC) always has the same voltage reference. Power supply module is made by using TPS6107x
 integrated circuit (buck/boost converter IC). Looking in the IC datasheet, there will be represented some examples how to use this integrated circuit as well as schematics for that 
 purposes. 
 
-TPS61073 IC data : https://www.ti.com/lit/ds/symlink/tps61073.pdf?ts=1597321829455
+[TPS61073 IC data](https://www.ti.com/lit/ds/symlink/tps61073.pdf?ts=1597321829455)
 
 The TPS6107x devices provide a power supply solution for products powered by either a one-cell, two-cell, or three-cell alkaline, NiCd or NiMH, or one cell Li-ion or Li-polymer
 battery. In this example, TPSxx will be used as both buck and boost converter. It gives a stable 3.3 V (600 mA) signal at its output while at its input, voltage value varies
@@ -61,7 +65,7 @@ ADC peripheral module is in charge of measuring battery voltage and temperature 
 For thermal measurements, 10kΩ NTC thermistor is used and together with 10 kΩ resistor make voltage divider in which voltage is raised when thr temperature is raised due to divider
 configuration.
 
-NTC data: https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039
+[B5789 NTC data](https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039)
 
 ### Required components
 
