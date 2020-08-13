@@ -3,7 +3,7 @@ Arduino Uno R3 Battery Management System Module
 
 Extension Board can be also connected to _Nano_, _Mini Pro_ and other Arduino Boards!
 
-This Arduino Extension Board is inspired by [Stuart Pittaway and his diyBMS](https://github.com/stuartpittaway/diyBMS).
+This __Arduino Extension Board__ is inspired by [Stuart Pittaway and his diyBMS](https://github.com/stuartpittaway/diyBMS).
 
 The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller or similar one. This board has a
 function to measure battery voltage and temperature in an analog form and send it back to the microcontroller. The board also generate stable 3.3 V (600 mA) output signal by using
@@ -66,6 +66,10 @@ For thermal measurements, 10kâ„¦ NTC thermistor is used and together with 10 kâ„
 configuration.
 
 [B5789 NTC data](https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039)
+
+### KiCad Design Tool
+
+![GitHub Logo](/BMS-Design/arduinoUno-BMSmodule3.png)
 
 ### Required components
 
