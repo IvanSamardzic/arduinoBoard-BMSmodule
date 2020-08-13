@@ -21,6 +21,8 @@ First part has the a function of generating a stable voltage to the ADC peripher
 integrated circuit (buck/boost converter IC). Looking in the IC datasheet, there will be represented some examples how to use this integrated circuit as well as schematics for that 
 purposes. 
 
+TPS61073 IC data : https://www.ti.com/lit/ds/symlink/tps61073.pdf?ts=1597321829455
+
 The TPS6107x devices provide a power supply solution for products powered by either a one-cell, two-cell, or three-cell alkaline, NiCd or NiMH, or one cell Li-ion or Li-polymer
 battery. In this example, TPSxx will be used as both buck and boost converter. It gives a stable 3.3 V (600 mA) signal at its output while at its input, voltage value varies
 in range from 3 V to 4.2 V in case system manages Li-Ion battery cells.
