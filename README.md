@@ -5,9 +5,11 @@ Extension Board can be also connected to _Nano_, _Mini Pro_ and other Arduino Bo
 
 This _Arduino BMS Extension Board_ is inspired by [Stuart Pittaway and his diyBMS](https://github.com/stuartpittaway/diyBMS).
 
-The goal of this project is to design, sketch and program a simple pcb board that is used as an extension board for an Arduino Uno microcontroller or similar one. This board has a
-function to measure battery voltage and temperature in an analog form and send it back to the microcontroller. The board also generate stable 3.3 V (600 mA) output signal by using
-appropriate integrated circuit thus eliminating the need for an external voltage source for the board and the microcontroller. 
+The goal of this project is to design, sketch and program a pcb board that will be used as an extension board for Arduino microcontroller. 
+
+This board has a function to measure battery voltage and temperature in an analog form and send it back to the microcontroller. In uC conversion is executed and depending on the BAT
+temperature and voltage values, system will turn on/off the N-channel MOSFET and flash the LED with proper pattern. The board also generate stable 3.3 V (600 mA) output signal by 
+using appropriate integrated circuit thus eliminating the need for an external voltage source for the board and the microcontroller. 
 
 [Full Arduino Uno schematic](https://www.circuito.io/blog/arduino-uno-pinout/)
 
