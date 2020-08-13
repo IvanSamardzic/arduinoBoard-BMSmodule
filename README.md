@@ -14,7 +14,7 @@ Full Arduino Uno schematic: https://www.circuito.io/blog/arduino-uno-pinout/
 Battery management system explanation video tutorials: https://www.youtube.com/watch?v=MZyY1dpka7c
 
 Problem
----
+
 A DIY Powerwall is the DIY construction of a pack of battery cells to create an energy store which can be used via inverters to power electrical items in the home. Generally cells are salvaged/second hand, and typically use Lithium 18650 cells.
 
 Lithium batteries need to be kept at the same voltage level across a parallel pack. This is done by balancing each cell in the pack to raise or lower its voltage to match the others.
@@ -24,7 +24,7 @@ Existing balancing solutions are available in the market place, but at a relativ
 A large number of people have utilised the commercial BATRIUM BMS system in their powerwall devices.
 
 Circuit explanation
----
+
 The schematic attached in this repository is very simple. Electronic circuit can be divided in two parts, power supply module and analog to digital conversion peripheral. 
 
 First part has the a function of generating a stable voltage to the ADC peripheral (main IC) always has the same voltage reference. Power supply module is made by using TPS6107x
@@ -64,5 +64,5 @@ configuration.
 NTC data: https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039
 
 Required components
----
+
 TPS61073 converter ic
