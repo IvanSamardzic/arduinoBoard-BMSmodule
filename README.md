@@ -5,6 +5,7 @@ The goal of this project is to design, sketch and program a simple pcb board tha
 electronic circuit is explained in detail.
 
 Full Arduino Uno schematic: https://www.circuito.io/blog/arduino-uno-pinout/
+
 Battery management system explanation video tutorials: https://www.youtube.com/watch?v=MZyY1dpka7c
 
 Problem
