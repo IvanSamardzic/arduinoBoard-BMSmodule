@@ -15,6 +15,10 @@ using appropriate integrated circuit thus eliminating the need for an external v
 
 [Battery management system explanation video tutorial](https://www.youtube.com/watch?v=MZyY1dpka7c)
 
+[TPS61073 IC data](https://www.ti.com/lit/ds/symlink/tps61073.pdf?ts=1597321829455)
+
+[B5789 NTC data](https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039)
+
 ### Problem
 
 A DIY Powerwall is the DIY construction of a pack of battery cells to create an energy store which can be used via inverters to power electrical items in the home. Generally cells are salvaged/second hand, and typically use Lithium 18650 cells.
@@ -36,8 +40,6 @@ Electronic circuit can be divided in two parts:
 First part has the a function of generating a stable voltage to the ADC peripheral (main IC) always has the same voltage reference. Power supply module is made by using TPS6107x
 integrated circuit (buck/boost converter IC). Looking in the IC datasheet, there will be represented some examples how to use this integrated circuit as well as schematics for that 
 purposes. 
-
-[TPS61073 IC data](https://www.ti.com/lit/ds/symlink/tps61073.pdf?ts=1597321829455)
 
 The TPS6107x devices provide a power supply solution for products powered by either a one-cell, two-cell, or three-cell alkaline, NiCd or NiMH, or one cell Li-ion or Li-polymer
 battery. In this example, TPSxx will be used as both buck and boost converter. It gives a stable 3.3 V (600 mA) signal at its output while at its input, voltage value varies
@@ -66,11 +68,10 @@ ADC peripheral module is in charge of measuring battery voltage and temperature 
 For thermal measurements, 10kΩ NTC thermistor is used and together with 10 kΩ resistor make voltage divider in which voltage is raised when thr temperature is raised due to divider
 configuration.
 
-[B5789 NTC data](https://product.tdk.com/en/search/sensor/ntc/ntc_element/info?part_no=B57861S0103A039)
 
 ### KiCad Design Tool
 
-![GitHub Logo](/BMS-Design/arduinoUno-BMSmodule3.png)
+![GitHub Logo](/BMS-Design/arduinoUno-BMSmodule2.png)
 
 ### Required components
 
