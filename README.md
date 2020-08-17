@@ -72,11 +72,11 @@ configuration.
 
 ### KiCad Design Tool
 
-PCB Editor photo
+_PCB Editor photo_
 
 ![GitHub Logo](/BMS-Design/arduinoUno-BMSmodule.png)
 
-3D View photo
+_3D View photo_
 
 ![GitHub Logo](/BMS-Design/arduinoUno-BMSmodule2.png)
 
