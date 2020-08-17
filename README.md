@@ -71,6 +71,12 @@ configuration.
 
 ### KiCad Design Tool
 
+PCB Editor photo
+
+![GitHub Logo](/BMS-Design/arduinoUno-BMSmodule.png)
+
+3D View photo
+
 ![GitHub Logo](/BMS-Design/arduinoUno-BMSmodule2.png)
 
 ### Required components
