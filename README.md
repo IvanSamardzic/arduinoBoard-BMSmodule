@@ -11,9 +11,10 @@ This board has a function to measure battery voltage and temperature in an analo
 temperature and voltage values, system will turn on/off the N-channel MOSFET and flash the LED with proper pattern. The board also generate stable 3.3 V (600 mA) output signal by 
 using appropriate integrated circuit thus eliminating the need for an external voltage source for the board and the microcontroller. 
 
-[Full Arduino Uno schematic](https://www.circuito.io/blog/arduino-uno-pinout/)
-
+### Recommended to view
 [Battery management system explanation video tutorial](https://www.youtube.com/watch?v=MZyY1dpka7c)
+
+[Full Arduino Uno schematic](https://www.circuito.io/blog/arduino-uno-pinout/)
 
 [TPS61073 IC data](https://www.ti.com/lit/ds/symlink/tps61073.pdf?ts=1597321829455)
 
