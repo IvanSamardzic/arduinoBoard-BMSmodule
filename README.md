@@ -1,5 +1,4 @@
-_Arduino Uno Battery Management System Extension Module_
----
+### _Arduino Uno Battery Management System Extension Module_
 
 Extension Board can be also connected to _Nano_, _Mini Pro_ and other Arduino Boards!
 
@@ -7,9 +6,9 @@ This _Arduino BMS Extension Board_ is inspired by [Stuart Pittaway and his diyBM
 
 The goal of this project is to design, sketch and program a pcb board that will be used as an extension board for Arduino microcontroller. 
 
-This board has a function to measure battery voltage and temperature in an analog form and send it back to the microcontroller. In uC conversion is executed and depending on the BAT
-temperature and voltage values, system will turn on/off the N-channel MOSFET and flash the LED with proper pattern. The board also generate stable 3.3 V (600 mA) output signal by 
-using appropriate integrated circuit thus eliminating the need for an external voltage source for the board and the microcontroller. 
+This board has a function to measure battery voltage and temperature in an analog form and send it back to the microcontroller. In microcontroller conversion is executed and
+depending on the BAT temperature and voltage values, system will turn on/off the N-channel MOSFET and flash the LED with proper pattern. The board also generate stable 3.3 V (600 mA) 
+output signal by using appropriate integrated circuit thus eliminating the need for an external voltage source for the board and the microcontroller. 
 
 ### Recommended to view
 [Battery management system explanation video tutorial](https://www.youtube.com/watch?v=MZyY1dpka7c)
