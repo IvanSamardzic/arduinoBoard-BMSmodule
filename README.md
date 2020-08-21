@@ -1,6 +1,4 @@
-### _Arduino Uno Battery Management System Extension Module_
-
-Extension Board can be also connected to _Nano_, _Mini Pro_ and other Arduino Boards!
+### _Arduino Battery Management System Extension Module_
 
 This _Arduino BMS Extension Board_ is inspired by [Stuart Pittaway and his diyBMS](https://github.com/stuartpittaway/diyBMS).
 
