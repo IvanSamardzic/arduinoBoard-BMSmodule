@@ -1,6 +1,6 @@
 ### _Arduino Battery Management System Extension Module_
 
-This _Arduino BMS Extension Board_ is inspired by [Stuart Pittaway and his diyBMS](https://github.com/stuartpittaway/diyBMS).
+This _Arduino BMS Extension Board_ can be controlled with _Nano_, _Uno_ and other Arduino Microcontroller boards.
 
 The goal of this project is to design, sketch and program a pcb board that will be used as an extension board for Arduino microcontroller. 
 
