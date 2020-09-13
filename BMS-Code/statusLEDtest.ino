@@ -1,7 +1,7 @@
 int led = 2;
-unsigned char panic [8] = "01010101";
-unsigned char configured [8] = "11111111";
-unsigned char unconfigured [8] = "00000000";
+unsigned char panic [8] = {0,1,0,1,0,1,0,1};
+unsigned char configured [8] = {1,1,1,1,1,1,1,1};
+unsigned char unconfigured [8] = {0,0,0,0,0,0,0,0};
 void ledBlink(unsigned char* t);
 void setup() {
   Serial.begin(9600);
@@ -12,11 +12,13 @@ void setup() {
 
 void loop() {
   ledBlink(panic);
+  //ledBlink(unconfigured);
+  //ledBlink(configured);
 }
 
-void ledBlink(unsigned char* t){
+void ledBlink(unsigned char t[]){
   for(int k = 0; k < 8; k++){
     digitalWrite(led, t[k]);
-    delay(20);
+    delay(100);
   }
 }
